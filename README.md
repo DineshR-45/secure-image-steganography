@@ -51,17 +51,6 @@ This project demonstrates how to securely hide data within an image using stegan
      python steganography.py --extract --image output_image.png --decrypt
      ```
 
-## Example
-```bash
-# Embed data
-python steganography.py --embed --image input_image.png --output output_image.png --data "Hello, World!"
-
-# Extract data
-python steganography.py --extract --image output_image.png
-```
-
-
-
 ## Future Scope
 - Support for audio and video steganography.
 - Advanced encryption algorithms (e.g., AES).
@@ -75,8 +64,6 @@ Contributions are welcome! If you'd like to contribute, please follow these step
 4. Push to the branch (`git push origin feature/YourFeatureName`).
 5. Open a pull request.
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 - Thanks to [OpenCV](https://opencv.org/) for image processing tools.
@@ -84,8 +71,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 For questions or feedback, feel free to reach out:  
-- **Your Name**: [Dinesh R](dineshrc1024@gmail.com)  
-- **GitHub**: [DineshR-45](https://github.com/your-username)  
+- **Dinesh R**: [dineshrc1024@gmail.com](dineshrc1024@gmail.com)  
+- **GitHub**: [DineshR-45](https://github.com/DineshR-45)  
 ```
 
----
