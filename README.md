@@ -1,5 +1,3 @@
-
-```markdown
 # Secure Data Hiding in Image Using Steganography
 
 This project demonstrates how to securely hide data within an image using steganography. The Least Significant Bit (LSB) method is used to embed data into the image, ensuring that the changes are invisible to the naked eye. Optionally, the data can be encrypted for added security.
@@ -62,13 +60,7 @@ python steganography.py --embed --image input_image.png --output output_image.pn
 python steganography.py --extract --image output_image.png
 ```
 
-## Screenshots
-- **Original Image**:  
-  ![Original Image](screenshots/original_image.png)
-- **Image with Embedded Data**:  
-  ![Embedded Image](screenshots/embedded_image.png)
-- **Extracted Data**:  
-  ![Extracted Data](screenshots/extracted_data.png)
+
 
 ## Future Scope
 - Support for audio and video steganography.
@@ -88,12 +80,12 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Acknowledgments
 - Thanks to [OpenCV](https://opencv.org/) for image processing tools.
-- Inspired by [this steganography tutorial](https://example.com).
+- Inspired by [geeksforgeeks](https://www.geeksforgeeks.org/image-based-steganography-using-python/).
 
 ## Contact
 For questions or feedback, feel free to reach out:  
-- **Your Name**: [Your Email](mailto:youremail@example.com)  
-- **GitHub**: [your-username](https://github.com/your-username)  
+- **Your Name**: [Dinesh R](dineshrc1024@gmail.com)  
+- **GitHub**: [DineshR-45](https://github.com/your-username)  
 ```
 
 ---
