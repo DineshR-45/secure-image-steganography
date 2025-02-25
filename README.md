@@ -50,6 +50,8 @@ This project demonstrates how to securely hide data within an image using stegan
      ```bash
      python steganography.py --extract --image output_image.png --decrypt
      ```
+## License
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/DineshR-45/secure-image-steganography/commit/b2286e77fdc0413e3df8302e23457833533f9796) file for details.
 
 ## Future Scope
 - Support for audio and video steganography.
