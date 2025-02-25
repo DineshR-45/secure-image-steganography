@@ -4,11 +4,31 @@
 
 This project demonstrates how to securely hide data within an image using steganography. The Least Significant Bit (LSB) method is used to embed data into the image, ensuring that the changes are invisible to the naked eye. Optionally, the data can be encrypted for added security.
 
+## Table of Contents
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Running Tests](#running-tests)
+- [Future Scope](#future-scope)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
+
 ## Features
 - **Data Embedding**: Hide text or files within an image.
 - **Data Extraction**: Extract hidden data from the image.
 - **Encryption**: Optional encryption for enhanced security.
 - **Invisibility**: No visible changes to the image after embedding data.
+
+## Technologies Used
+- **Python**: The primary programming language used for implementing the steganography algorithm.
+- **OpenCV**: Used for image processing tasks such as reading and manipulating image pixels.
+- **NumPy**: Used for numerical operations and handling multi-dimensional arrays (e.g., image pixel data).
+- **PIL (Python Imaging Library)**: Used for image manipulation tasks like opening, saving, and converting image formats.
+- **Cryptography**: Used for optional data encryption to enhance the security of the hidden data.
 
 ## Requirements
 To run this project, you need the following Python libraries:
@@ -23,72 +43,71 @@ You can install all the required libraries using `pip`. Run the following comman
 ```bash
 pip install opencv-python numpy pillow cryptography
 
-## Technologies Used
-- **Python**: Programming language.
-- **OpenCV**: Image processing.
-- **NumPy**: Numerical operations.
-- **PIL (Python Imaging Library)**: Image manipulation.
-- **Cryptography**: Optional data encryption.
+Usage
+Embed Data into an Image:
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/DineshR-45/secure-image-steganography.git
-   cd secure-image-steganography
-   ```
+bash
+Copy
+python steganography.py --embed --image input_image.png --output output_image.png --data "This is a secret message!"
+Extract Data from an Image:
 
-2. Install the required libraries:
-   ```bash
-   pip install opencv-python numpy pillow cryptography
-   ```
+bash
+Copy
+python steganography.py --extract --image output_image.png
+Optional Encryption:
 
-## Usage
-1. **Embed Data into an Image**:
-   - Place the image you want to use in the project directory (e.g., `input_image.png`).
-   - Run the following command to embed data:
-     ```bash
-     python steganography.py --embed --image input_image.png --output output_image.png --data "This is a secret message!"
-     ```
+To encrypt the data before embedding:
 
-2. **Extract Data from an Image**:
-   - Run the following command to extract data:
-     ```bash
-     python steganography.py --extract --image output_image.png
-     ```
+bash
+Copy
+python steganography.py --embed --image input_image.png --output output_image.png --data "This is a secret message!" --encrypt
+To decrypt the extracted data:
 
-3. **Optional Encryption**:
-   - To encrypt the data before embedding, use the `--encrypt` flag:
-     ```bash
-     python steganography.py --embed --image input_image.png --output output_image.png --data "This is a secret message!" --encrypt
-     ```
-   - To decrypt the extracted data, use the `--decrypt` flag:
-     ```bash
-     python steganography.py --extract --image output_image.png --decrypt
-     ```
-## License
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/DineshR-45/secure-image-steganography/commit/b2286e77fdc0413e3df8302e23457833533f9796) file for details.
+bash
+Copy
+python steganography.py --extract --image output_image.png --decrypt
+Screenshots
+Original Image:
+Original Image
 
-## Future Scope
-- Support for audio and video steganography.
-- Advanced encryption algorithms (e.g., AES).
-- User-friendly GUI or web application.
+Image with Embedded Data:
+Embedded Image
 
-## Contributing
-Contributions are welcome! If you'd like to contribute, please follow these steps:
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/YourFeatureName`).
-3. Commit your changes (`git commit -m 'Add some feature'`).
-4. Push to the branch (`git push origin feature/YourFeatureName`).
-5. Open a pull request.
+Extracted Data:
+Extracted Data
 
+Running Tests
+To run the tests, use the following command:
 
-## Acknowledgments
-- Thanks to [OpenCV](https://opencv.org/) for image processing tools.
-- Inspired by [this steganography tutorial](https://www.geeksforgeeks.org/image-based-steganography-using-python/).
+bash
+Copy
+python -m unittest tests/test_steganography.py
+Future Scope
+Support for audio and video steganography.
 
-## Contact
-For questions or feedback, feel free to reach out:  
-- **Dinesh R**: [dineshrc1024@gmail.com](dineshrc1024@gmail.com)  
-- **GitHub**: [DineshR-45](https://github.com/DineshR-45)  
-```
+Advanced encryption algorithms (e.g., AES).
 
+User-friendly GUI or web application.
+
+Contributing
+Contributions are welcome! Please follow these steps to contribute:
+
+Fork the repository.
+
+Create a new branch (git checkout -b feature/YourFeatureName).
+
+Commit your changes (git commit -m 'Add some feature').
+
+Push to the branch (git push origin feature/YourFeatureName).
+
+Open a pull request.
+
+For more details, read our Contribution Guidelines.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Acknowledgments
+Thanks to OpenCV for image processing tools.
+
+Inspired by this steganography tutorial.
