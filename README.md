@@ -42,30 +42,32 @@ You can install all the required libraries using `pip`. Run the following comman
 
 ```bash
 pip install opencv-python numpy pillow cryptography
+```
 
 Usage
 Embed Data into an Image:
 
-bash
-Copy
+```bash
 python steganography.py --embed --image input_image.png --output output_image.png --data "This is a secret message!"
+```
 Extract Data from an Image:
 
-bash
-Copy
+```bash
 python steganography.py --extract --image output_image.png
+```
 Optional Encryption:
 
 To encrypt the data before embedding:
 
-bash
-Copy
+```bash
 python steganography.py --embed --image input_image.png --output output_image.png --data "This is a secret message!" --encrypt
-To decrypt the extracted data:
+```
 
-bash
-Copy
+To decrypt the extracted data:
+```bash
 python steganography.py --extract --image output_image.png --decrypt
+```
+
 Screenshots
 Original Image:
 Original Image
@@ -79,9 +81,10 @@ Extracted Data
 Running Tests
 To run the tests, use the following command:
 
-bash
-Copy
+```bash
 python -m unittest tests/test_steganography.py
+```
+
 Future Scope
 Support for audio and video steganography.
 
