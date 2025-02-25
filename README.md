@@ -113,7 +113,7 @@ Open a pull request.
 For more details, read our Contribution Guidelines.
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/DineshR-45/secure-image-steganography/blob/main/LICENSE) file for details.
 
 ## Acknowledgments
 Thanks to OpenCV for image processing tools.
