@@ -10,6 +10,19 @@ This project demonstrates how to securely hide data within an image using stegan
 - **Encryption**: Optional encryption for enhanced security.
 - **Invisibility**: No visible changes to the image after embedding data.
 
+## Requirements
+To run this project, you need the following Python libraries:
+- `opencv-python` (for image processing)
+- `numpy` (for numerical operations)
+- `pillow` (for image manipulation)
+- `cryptography` (for optional data encryption)
+
+### Installation
+You can install all the required libraries using `pip`. Run the following command:
+
+```bash
+pip install opencv-python numpy pillow cryptography
+
 ## Technologies Used
 - **Python**: Programming language.
 - **OpenCV**: Image processing.
