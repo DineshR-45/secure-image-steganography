@@ -1,6 +1,6 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 # Secure Data Hiding in Image Using Steganography
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This project demonstrates how to securely hide data within an image using steganography. The Least Significant Bit (LSB) method is used to embed data into the image, ensuring that the changes are invisible to the naked eye. Optionally, the data can be encrypted for added security.
 
@@ -84,7 +84,7 @@ Contributions are welcome! If you'd like to contribute, please follow these step
 
 ## Acknowledgments
 - Thanks to [OpenCV](https://opencv.org/) for image processing tools.
-- Inspired by [geeksforgeeks](https://www.geeksforgeeks.org/image-based-steganography-using-python/).
+- Inspired by [this steganography tutorial](https://www.geeksforgeeks.org/image-based-steganography-using-python/).
 
 ## Contact
 For questions or feedback, feel free to reach out:  
