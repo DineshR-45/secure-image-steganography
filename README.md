@@ -45,6 +45,7 @@ pip install opencv-python numpy pillow cryptography
 ```
 
 Usage
+
 Embed Data into an Image:
 
 ```bash
