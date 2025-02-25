@@ -72,7 +72,7 @@ python steganography.py --extract --image output_image.png --decrypt
 ## Screenshots
 
 Original Image:
-Original Image
+[Original Image](Screenshots/Original_image.png)
 
 Image with Embedded Data:
 Embedded Image
