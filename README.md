@@ -116,6 +116,6 @@ For more details, read our Contribution Guidelines.
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/DineshR-45/secure-image-steganography/blob/main/LICENSE) file for details.
 
 ## Acknowledgments
-Thanks to OpenCV for image processing tools.
+Thanks to [OpenCV](https://opencv.org/) for image processing tools.
 
-Inspired by this steganography tutorial.
+Inspired by this [steganography tutorial](https://www.geeksforgeeks.org/image-steganography-using-opencv-in-python/)
