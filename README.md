@@ -77,8 +77,7 @@ Original Image:
 Image with Embedded Data:
 [Embedded Image](https://github.com/DineshR-45/secure-image-steganography/blob/main/output_image.png)
 
-Extracted Data:
-Extracted Data
+
 
 ## Running Tests
 
